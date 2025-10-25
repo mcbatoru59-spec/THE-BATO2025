@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    
+
+  </head>
+    
+  <body>
+  <!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>THE 罵倒 — 32人トーナメント (1回戦のみ)</title>
+<style>
+  :root{
+    --bg:#000000;
+    --panel:#111111;
+    --muted:#333333;
+    --accent:#ffffff;
+    --white:#ffffff;
+    --glow: 0 6px 18px rgba(255,255,255,0.1);
+    --radius:8px;
+    --font-sans: "Noto Sans JP", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  html,body{
+    height:100%;
+    margin:0;
+    background:var(--bg);
+    color:var(--white);
+    font-family:var(--font-sans);
+    -webkit-font-smoothing:antialiased;
+  }
+
+  header{
+    padding:22px 14px 6px;
+    text-align:center;
+  }
+
+  h1{
+    margin:0;
+    font-size:28px;
+    letter-spacing:2px;
+    color:var(--accent);
+    text-shadow: 0 2px 0 rgba(0,0,0,0.6);
+  }
+
+  .sub{
+    margin-top:6px;
+    color:#cccccc;
+    font-size:13px;
+  }
+
+  /* Board: 縦一列 */
+  .wrap {
+    padding:18px;
+  }
+
+  .board {
+    display:flex;
+    flex-direction: column;
+    gap:28px;
+    align-items: center;
+    padding:14px;
+  }
+
+  .column {
+    display:flex;
+    flex-direction: column;
+    gap:18px;
+    width: 90%;
+    max-width: 600px;
+  }
+
+  .round-title {
+    font-size:16px;
+    font-weight:800;
+    color:#ffffff;
+    text-align:center;
+    padding:8px 12px;
+    background: rgba(255,255,255,0.1);
+    border-radius:6px;
+    border-bottom:2px solid rgba(255,255,255,0.2);
+  }
+
+  .match {
+    background: rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius: var(--radius);
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    gap:6px;
+    box-shadow: var(--glow);
+  }
+
+  .player {
+    display:block;
+    text-decoration:none;
+    color:#ffffff;
+    padding:8px 10px;
+    border-radius:6px;
+    font-weight:700;
+    font-size:14px;
+    letter-spacing:0.6px;
+    background: rgba(255,255,255,0.05);
+    transition: transform .12s ease, background .12s ease;
+    text-align:center;
+    border:2px solid transparent;
+  }
+
+  .player:hover {
+    transform:translateY(-3px);
+    background: rgba(255,255,255,0.15);
+    border-color: rgba(255,255,255,0.25);
+  }
+
+  .player::after{
+    content: " 🔗";
+    font-size:12px;
+    opacity:0;
+    margin-left:6px;
+    transition: opacity .12s;
+  }
+  .player:hover::after{ opacity:1; }
+
+  .vs {
+    text-align:center;
+    font-size:12px;
+    color:#cccccc;
+    margin:4px 0;
+  }
+
+  @media (max-width:700px){
+    .column{ width: 100%; }
+  }
+
+  .hint{ font-size:12px; color:#a9a9a9; text-align:center; margin-top:10px; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>THE罵倒2025本戦</h1>
+    <div class="sub"></div>
+  </header>
+
+  <div class="wrap">
+    <div class="board">
+      <!-- Block 1 -->
+      <div class="column">
+        <div class="round-title">ブロック1 - 1回戦</div>
+        <div class="match"><a class="player" href="https://youtu.be/zRGjhs3Svb8?si=WghwHk1InUchHXcW">HIDADDY</a><div class="vs">vs</div><a class="player" href="https://youtu.be/EiVKWR1G7e8?si=xmec2cVnp0wjACQL">BATTLE手裏剣</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/EXH-ZwPBOUs?si=keeuh47dPi_BVKES">MASARU</a><div class="vs">vs</div><a class="player" href="https://youtu.be/J_4idtP30BA?si=4_P9laviMJAZPF3L">DOTAMA</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/a9df8e0QZ_E?si=3fYP26Pnjm8VG0ck">SIMON JAP</a><div class="vs">vs</div><a class="player" href="https://youtu.be/wKnERFGSbZw?si=-49NbYD_XLOQWzU8">$iva</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/uRzNdiEtE8Y?si=Bym9od8ObPHaLqZ7">Randy Wati Sati</a><div class="vs">vs</div><a class="player" href="https://youtu.be/rhM9W6EjEeM?si=7T2WzdUEdlyOTSym">梵頭</a></div>
+      </div>
+
+      <!-- Block 2 -->
+      <div class="column">
+        <div class="round-title">ブロック2 - 1回戦</div>
+        <div class="match"><a class="player" href="https://youtu.be/iG3RuTt3gsg?si=wrzPGfdilFGaJ1k9">Yella goat</a><div class="vs">vs</div><a class="player" href="https://youtu.be/urXV0KHGMiI?si=s3L-YVHzTkcUWzdD">11'Back</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/ZvT6cq-LIi0?si=82GC-D2opgaxW0XS">KOOPA</a><div class="vs">vs</div><a class="player" href="https://youtu.be/8kbRD5p8Ung?si=lKAf-7bWwM6Dmawq">椿</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/D1we585YuVc?si=plH-WAPTsD3Kmz1x">S-DEEP</a><div class="vs">vs</div><a class="player" href="https://youtu.be/p8nppZ7UbmI?si=7n-0v6lzfRoBNP0X">N1NYO</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/AEoe7SyZucM?si=AHU0Onq-ib0JtLvi">K-rush</a><div class="vs">vs</div><a class="player" href="https://youtu.be/RG0ymVW5RXw?si=lsKayZKXdioOu0WX">Keyser</a></div>
+      </div>
+
+      <!-- Block 3 -->
+      <div class="column">
+        <div class="round-title">ブロック3 - 1回戦</div>
+        <div class="match"><a class="player" href="https://youtu.be/h0pdE5QlyRM?si=jR7y4OqQem9sea9b">KEN</a><div class="vs">vs</div><a class="player" href="https://youtu.be/daVXXO936-k?si=EVMnPsWjuq32ouzY">SNAFKN</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/APwIs6Px7Gg?si=FG-9pOzfm6pIswzt">掌幻</a><div class="vs">vs</div><a class="player" href="https://youtu.be/f8auzS7hVWc?si=8paEGUEsixX-Qll4">蘇流邪</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/JpXsimgEgaU?si=CNKPHML79o-9HAQa">T4kq</a><div class="vs">vs</div><a class="player" href="https://youtu.be/1dMoto2dqQ0?si=h_JjDtKEIzNSAdbz">DNL</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/srY7qG7_gmI?si=bbgwhNq6uzZ96t8_">SHAMO</a><div class="vs">vs</div><a class="player" href="https://youtu.be/MeE2r7b8VkU?si=KvdQ-O6L02-S1N_Q">はなび</a></div>
+      </div>
+
+      <!-- Block 4 -->
+      <div class="column">
+        <div class="round-title">ブロック4 - 1回戦</div>
+        <div class="match"><a class="player" href="https://youtu.be/GIDzr2SaAG4?si=9_qiZmW_JKPSzUQJ">黄猿</a><div class="vs">vs</div><a class="player" href="https://youtu.be/jyn2dSBJpHE?si=DktTZQeYt3bkpYVG">MAIllI</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/tzHAxjpwyxM?si=ooOaWn-JEB1xzx-M">Cherry</a><div class="vs">vs</div><a class="player" href="https://youtu.be/cVVUBUulnQA?si=j8JXu_vG6w4ywy3M">TKda黒ぶち</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/uDBE9CNmEQk?si=fbcoDUhXr1iYwSaF">輪入道</a><div class="vs">vs</div><a class="player" href="https://youtu.be/xMpB6NosM3Y?si=gDI1VRYmdek7fDG2">GOMESS</a></div>
+        <div class="match"><a class="player" href="https://youtu.be/iPcOIhu4kTU?si=xfv0ShGIRYVvm8e4">BALA SBKN</a><div class="vs">vs</div><a class="player" href="https://youtu.be/czm0Who3srU?si=jCpuPY04p-XF84cH">Cyber-G</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hint">編集方法：HTML内の <code>PLAYER 1</code>〜<code>PLAYER 32</code> を直接書き換え、名前の <code>href="#"</code> を動画URLに変えてください。</div>
+
+<script>
+(function(){
+  document.addEventListener('click', function(e){
+    const a = e.target.closest('a.player');
+    if(!a) return;
+    if(a.getAttribute('href') === '#'){
+      e.preventDefault();
+      const url = prompt('このプレイヤーのリンクを入力してください（空欄でキャンセル）', '');
+      if(url && url.trim() !== ''){
+        a.setAttribute('href', url.trim());
+        window.open(url.trim(), '_blank');
+      }
+    }
+  }, false);
+})();
+</script>
+</body>
+</html>
+    
+  </body>
+  
+</html>
